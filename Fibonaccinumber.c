@@ -1,3 +1,7 @@
-Finding value of a fibbonacci number
-dgjj
-ffhh
+#include<stdio.h>
+
+int main () 
+{
+
+return 0; 
+}
