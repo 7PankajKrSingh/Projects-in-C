@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
+
 int generatenrandomnumber(int n)
 {
     srand(time(NULL));
@@ -68,6 +69,7 @@ int main()
         compchar = dict[temp];
         printf("CPU chose : %c\n\n", compchar);
 
+        
         if (greater(compchar, playerchar) == 1)
         {
             compscore += 1;
@@ -99,8 +101,6 @@ int main()
         printf("*************IT IS A DRAW*************\n ");
     }
 
-    
-    
 
     
 return 0;
